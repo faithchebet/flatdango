@@ -1,0 +1,79 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    color:aqua;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #110f81;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#films {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    float: left;
+    background-color: #ddab20;
+    color: #0c0631;
+}
+
+.film-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #555;
+}
+
+.film-item:hover {
+    background-color: #555;
+}
+
+.sold-out {
+    color: #999;
+}
+
+
+#movie-details {
+    margin-left: 220px; 
+    padding: 20px;
+}
+
+#movie-details img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #1b025f;
+}
+
+p {
+    color: #555;
+}
+
+.buy-ticket {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-ticket:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
